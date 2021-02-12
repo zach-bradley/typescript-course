@@ -7,7 +7,6 @@ interface DataReader {
   read(): void,
   data: string[][];
 }
-
 export class MatchReader {
   matches: MatchData[] = [];
   constructor(public reader: DataReader){}
